@@ -1,0 +1,66 @@
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width:100vw;
+  background-image: url('https://img.freepik.com/free-photo/breathtaking-view-beautiful-cloudy-colorful-ceiling-ocean-shore_181624-26256.jpg?w=1380&t=st=1686818927~exp=1686819527~hmac=e6f3d293349e8d71e9a7bc98d84e55c22ffc9b63036b89875115c7b7d9e8dda5');
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom:30px;
+  /* padding: 200px; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.layout{
+  background-image: url('./Components/background.png');
+  /* background-image: linear-gradient(to bottom right, #0079ff, #30a2ff); */
+  transition: 1.0s;
+  height:500px;
+  width:800px;
+  display:grid;
+  border-radius:25px;
+  align-items: center;
+  margin: auto;
+}
+.content{
+  transition: 1.0s;
+  /* background-image: linear-gradient(to bottom right, #0079ff, #30a2ff); */
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  background-color: transparent;
+}
+#temperature{
+  margin-left: 20px;
+  margin-bottom:30px;
+  font-size: 55px;
+}
+.icon{
+  text-align:right;
+}
+#tempicon{
+  width:200px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+#weathericon{
+  width: 200px;
+  height: 120px;
+  margin-left: 600px;
+}
+#Search{
+  width:250px;
+  margin-left: 20px;
+}
